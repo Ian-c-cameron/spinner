@@ -1,8 +1,7 @@
-const countOnly = require("../../../w1/lotide/countOnly");
 
 process.stdout.write('hello from spinner2.js... \rheyyy\n');
 
-const output = ['\r|   ', '\r-   ', '\r\\   ']
+const output = ['\r|   ', '\r-   ', '\r\\   '];
 
 let index = 0;
 let count = 40;
@@ -19,4 +18,5 @@ const interval = setInterval(() => {
     process.stdout.write('\n');
   }
 }, 200);
+
 
